@@ -1,0 +1,21 @@
+# --- data (keep CSVs, ignore the big image folder) ---
+/data/
+
+# --- checkpoints / logs / outputs ---
+*.pt
+*.pth
+*.ckpt
+/runs/
+/outputs/
+
+# --- python cruft ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- env / OS ---
+.env
+.DS_Store
+
+# --- VS Code workspace files ---
+.vscode/

@@ -1,0 +1,38 @@
+name: cpsc330
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - autograd
+  - graphviz
+  - ipykernel
+  - ipython
+  - jinja2
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab-spellchecker
+  - lightgbm
+  - matplotlib
+  - nb_conda_kernels
+  - nltk
+  - numpy==1.26.4
+  - pandas
+  - pip[version='>=24.2']
+  - plotly
+  - python-graphviz
+  - python==3.10
+  - pytorch
+  - requests
+  - scikit-learn
+  - spacy
+  - torchaudio
+  - torchvision
+  - wikipedia
+  - seaborn
+  - tensorboard
+  - ffmpeg[version='<7']
+  - torchmetrics
+  - libopenblas
+  - llvm-openmp[version='>=14']
+  - scipy
+prefix: /Users/TommyLubomirski/anaconda3/envs/cpsc330
